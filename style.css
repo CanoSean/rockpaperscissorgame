@@ -1,0 +1,52 @@
+body{
+    background-color: #292a2d;
+    color: white;
+    text-align: center;
+    /* padding-top: 1vw; */
+}
+
+.playersArea button{
+    padding: 20px;
+    background-color: #8ab4f8;
+    border: none;
+    color: white;
+}
+
+.playersArea button:hover{
+    opacity: 50%;
+    
+}
+
+.playersArea{
+    width: 700px;
+    padding: 10px;
+    border: 5px solid greenyellow;
+    margin: auto;
+}
+
+.aiArea button{
+    padding: 20px;
+    background-color: rgb(206, 23, 23);
+    border: none;
+    color: white;
+}
+
+.aiArea button:hover{
+    opacity: 100%;
+}
+
+button{
+    padding: 20px;
+    background-color: #8ab4f8;
+    border: none;
+    color: white;
+}
+
+button:hover{
+    opacity: 50%;
+}
+
+.intro{
+    margin: auto;
+    padding: 10% 0;
+}
