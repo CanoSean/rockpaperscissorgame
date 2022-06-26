@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="RPS.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Rock Paper Scissor</h1>
+    <h2>Player</h2>
+    <div class="playersArea">
+    <button id="rock" type="button" onclick="userTurn(this.id)" value="rock"><i style="font-size: 200px;" class='fa fa-hand-rock-o'></i></button>
+    <button id="paper" type="button" onclick="userTurn(this.id)" value="paper"><i style="font-size: 200px;" class='fa fa-hand-paper-o'></i></button>
+    <button id="scissor" type="button" onclick="userTurn(this.id)" value="scissor"><i  style="font-size: 200px;" class='fa fa-hand-scissors-o'></i></button>
+    </div>
+    <h2>AI</h2>
+    <div class="aiArea">
+    <button id="airock" type="button"  value="rock"><i style="font-size: 200px;" class='fa fa-hand-rock-o'></i></button>
+    <button id="aipaper" type="button"  value="paper"><i style="font-size: 200px;" class='fa fa-hand-paper-o'></i></button>
+    <button id="aiscissor" type="button" value="scissor"><i  style="font-size: 200px;" class='fa fa-hand-scissors-o'></i></button>
+    </div>
+    
+    <h2 id="timer"></h2>
+    <h3>Player Score: <h2 id="playerscore"></h2></h3>
+    <h3>AI Score: <h2 id="aiscore"></h2></h3>
+    <!-- <h1 id="total"></h1>
+    <h2 id="end"></h2> -->
+    <button id="exit" type="button" onclick="location.href = './intro.html'" value="rock">Exit</i></button>
+    <button id="reset" type="button" onclick="reload()" value="rock">Reset</i></button>
+</body>
+</html>
+
