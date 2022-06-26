@@ -40,7 +40,7 @@ const userTurn = (choice) => {
             alert(end);
             playerScore = 0;
             aiScore = 0;
-            location.href = "./intro.html";
+            location.href = "./index.html";
           }
 
 }
